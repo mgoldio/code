@@ -4,6 +4,6 @@
 ; Subroutine by Michael Goldstein. Source available at https://github.com/mgold95/code/tree/master/ece220/subroutines/negate.asm
 ; Source available under Apache 2.0 License.
 NEGATE
-		NOT R0, R0				; Invert R0s bits
-		ADD R0, R0, #1			; Increment R0 to get the negation
-		RET						; Return
+        NOT R0, R0             ; Invert R0s bits
+        ADD R0, R0, #1         ; Increment R0 to get the negation
+        RET                    ; Return
